@@ -20,7 +20,6 @@ for i in List:
     plt.plot(X, M)
 # %%
 # %%
-np.len(X)
 M1 = BSpline(X, TS[0],2).univariate_bspline_basis()
 
 # %%
